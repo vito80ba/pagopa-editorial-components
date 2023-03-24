@@ -142,7 +142,7 @@ const Feature = ({ title, items, theme, showCarouselMobile }: FeatureProps) => {
   ) : (
     <Box
       bgcolor={theme === 'light' ? 'background.paper' : 'primary.main'}
-      sx={{ flexGrow: 1 }}
+      sx={{ flexGrow: 1, overflow: 'hidden' }}
     >
       <Stack justifyContent="space-evenly" alignItems="center" spacing={3}>
         <AutoPlaySwipeableViews
