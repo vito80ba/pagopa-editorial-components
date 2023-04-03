@@ -4,6 +4,9 @@
   "author": {
     "name": "PagoPA"
   },
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
   "private": false,
   "repository": "https://github.com/pagopa/pagopa-editorial-components.git",
   "devDependencies": {
