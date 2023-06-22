@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm insatll
+      - run: npm install
       - run: npm build-storybook
 
       - name: Deploy
