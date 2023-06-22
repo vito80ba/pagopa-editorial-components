@@ -1,1 +1,0 @@
-# pagopa-editorial-components
